@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.next-question{
+    padding: 12px 30px;
+    border: none;
+    background-color: rgb(19, 91, 224);
+    color: white;
+    transition: 0.2s;
+}
+
+.back-question{
+    padding: 12px 30px;
+    border: none;
+    background-color: rgb(226, 64, 77);
+    color: white;
+    transition: 0.2s;
+    display: none;
+}
+
+.next-question:hover{
+    border-radius: 0 20px 20px 0;
+}
+
+.option{
+    background-color: blueviolet;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    transition: 0.2s;
+    
+}
+
+.option:hover{
+    border-radius: 20px;
+    background-color: green;
+}
+
+.active{
+    background-color: green;
+}
+
+.endo{
+    display: none;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+}
